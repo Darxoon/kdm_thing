@@ -1,0 +1,21 @@
+{
+  "name": "kdm_thing",
+  "version": "0.1.0",
+  "description": "A thing to disassemble and reassemble Paper Mario: Sticker Star's KDM file format",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc -w"
+  },
+  "author": "Darxoon",
+  "license": "Unlicense",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^24.1.0",
+    "@rollup/plugin-node-resolve": "^15.0.2",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.34.1"
+  },
+  "type": "module",
+  "dependencies": {
+    "@types/node": "^18.15.11"
+  }
+}
